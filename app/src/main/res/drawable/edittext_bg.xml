@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Đặt màu nền cho EditText -->
+    <solid android:color="#FFFFFF"/> <!-- Màu nền trắng -->
+
+    <!-- Thiết lập viền cho EditText -->
+    <stroke
+        android:width="2dp"
+        android:color="#3b5998"/> <!-- Màu viền (màu Facebook) -->
+
+    <!-- Bo tròn các góc của EditText -->
+    <corners android:radius="8dp"/>
+    <!-- Padding bên trong EditText -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp"/>
+
+</shape>
