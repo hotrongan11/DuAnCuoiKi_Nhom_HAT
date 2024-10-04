@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Đặt màu nền cho Checkbox -->
+    <solid android:color="#FFFFFF"/> <!-- Màu nền trắng -->
+
+    <!-- Thiết lập viền cho Checkbox -->
+    <stroke
+        android:width="2dp"
+        android:color="#3b5998"/> <!-- Màu viền (màu Facebook) -->
+
+    <!-- Bo tròn các góc của Checkbox -->
+    <corners android:radius="24dp"/> <!-- Điều chỉnh bán kính để làm hình tròn -->
+
+    <!-- Kích thước CheckBox -->
+    <size
+        android:width="24dp"
+        android:height="24dp"/>
+
+</shape>

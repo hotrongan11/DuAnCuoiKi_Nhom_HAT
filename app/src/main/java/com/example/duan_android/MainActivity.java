@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button signUpButton;
     private Button loginButton;
-
+    private Button payButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         loginButton.setOnClickListener(v -> {
             Intent loginIntent = new Intent(this, LoginActivity.class);
             startActivity(loginIntent);
+        });
+        payButton = findViewById(R.id.btn_Pay);
+        payButton.setOnClickListener(v -> {
+            Intent payIntent = new Intent(this, PayActivity.class);
+            startActivity(payIntent);
         });
     }
 }
