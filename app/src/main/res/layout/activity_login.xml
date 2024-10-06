@@ -84,7 +84,7 @@
             android:id="@+id/txtview_forgotpassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quên mật khẩu?"
+            android:text="Quên Mật Khẩu?"
             android:textColor="@color/blue"/>
 
     </LinearLayout>
